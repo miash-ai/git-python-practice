@@ -1,5 +1,4 @@
-print("Senka is now writing real code using GitHub 🚀")
+def greet(name):
+    return f"Hello, {name}!"
 
-for i in range(1, 11):
-    print(f"Counting: {i}")
-
+print(greet("Senka"))
